@@ -18,3 +18,5 @@ $ gcc compute_visibility.c -o compute_visibility -lm fopenmp
 $ ./compute_visibility scene.obj scene.vis
 ```
 You'll need to convert the matrix from the .vis format to a .txt format using some other software. Then open a MATLAB terminal and run the same four commands as above.
+
+The mathematics behind the engine are included in the file "math.pdf".
