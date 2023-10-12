@@ -9,5 +9,5 @@ To actually render the scene, open a MATLAB terminal (using the MATLAB Interacti
 
 >>> colors = light_scene(vertices, faces, reflectivities, emissions, visibilityMatrix)
 
->>> renderData(vertices, faces, colors)
+>>> render_scene(vertices, faces, colors)
 ```
