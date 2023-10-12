@@ -3,11 +3,11 @@ A simple rendering engine that works by applying the finite element method to so
 
 To actually render the scene, open a MATLAB terminal (using the MATLAB Interactive Terminal extension) and type the following commands:
 ```
->>> [vertices, faces, reflectivities, emissions, object_map] = read_obj_file("scene.obj")
+>>> [vertices, faces, reflectivities, emissions, objectMap] = read_obj_file("scene.obj")
 
->>> visibility_matrix = readmatrix("scene.txt")
+>>> visibilityMatrix = readmatrix("scene.txt")
 
->>> colors = light_scene(vertices, faces, reflectivities, emissions, visibility_matrix)
+>>> colors = light_scene(vertices, faces, reflectivities, emissions, visibilityMatrix)
 
 >>> renderData(vertices, faces, colors)
 ```
